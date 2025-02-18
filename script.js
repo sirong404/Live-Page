@@ -1,5 +1,5 @@
 async function predictWicket() {
-    const url = "https://your-api-name.onrender.com/predict_wicket"; // Replace with your actual API URL
+    const url = "https://cricket-wicket-prediction-api.onrender.com/predict_wicket"; // Replace with your actual API URL
 
     const data = {
         venue: document.getElementById("venue").value,
