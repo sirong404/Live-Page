@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Wicket Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Cricket Wicket Prediction</h2>
+        <form id="predictionForm">
+            <label for="venue">Venue:</label>
+            <input type="text" id="venue" required>
+
+            <label for="batting_team">Batting Team:</label>
+            <input type="text" id="batting_team" required>
+
+            <label for="batter">Batter:</label>
+            <input type="text" id="batter" required>
+
+            <label for="bowler">Bowler:</label>
+            <input type="text" id="bowler" required>
+
+            <label for="non_striker">Non-Striker:</label>
+            <input type="text" id="non_striker" required>
+
+            <label for="runs_batter">Batter Runs:</label>
+            <input type="number" id="runs_batter" required>
+
+            <label for="runs_total">Total Runs:</label>
+            <input type="number" id="runs_total" required>
+
+            <label for="extras">Extras:</label>
+            <input type="number" id="extras" required>
+
+            <label for="over_number">Over Number:</label>
+            <input type="number" id="over_number" required>
+
+            <label for="delivery_number">Delivery Number:</label>
+            <input type="number" id="delivery_number" required>
+
+            <button type="button" onclick="predictWicket()">Predict Wicket</button>
+        </form>
+
+        <h3 id="result">Prediction result will appear here</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
